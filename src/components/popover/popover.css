@@ -1,0 +1,27 @@
+.popover{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.popover-message{
+    background-color: #fff;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+}
+.popover-message.top{
+    bottom: calc( 100% + 20px) ;
+}
+.popover-message.bottom{
+    top: calc( 100% + 20px) ;
+}
+.popover-message.left{
+    right: calc( 100% + 20px) ;
+}
+.popover-message.right{
+    left: calc( 100% + 20px) ;
+}
