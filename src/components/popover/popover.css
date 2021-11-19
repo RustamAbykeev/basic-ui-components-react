@@ -4,6 +4,7 @@
     justify-content: center;
     position: relative;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 50px;
 }
 .popover-message{
     background-color: #fff;

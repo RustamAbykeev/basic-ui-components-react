@@ -12,7 +12,7 @@ export default function Accordion({ items }) {
 //if acccordeon item is clicked show changes its value
 
   return <div className="accordions">
-
+    <h1>Multi Accordion</h1>
     {items.map((item) => <AccordionItem key={item.title} title={item.title} text={item.text}/>)}
 
     </div>;                       
