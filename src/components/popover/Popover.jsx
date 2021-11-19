@@ -18,6 +18,6 @@ export default function Popover({ message, btnText, position }) {
 // }
 
 // let result = sum(2,2)
-{
+
   /* <Popover message="Popover text" btnText="Click me" position="top"/> */
-}
+

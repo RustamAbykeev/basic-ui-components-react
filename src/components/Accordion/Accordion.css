@@ -1,0 +1,11 @@
+.accordion-title {
+    padding: 15px;
+    font-size: 22px;
+    background-color: rgba(223, 217, 217, 0.883);
+    border: solid 1px;
+}
+
+.accodion-text {
+    display: inline-flex;
+    padding: 30px;
+}

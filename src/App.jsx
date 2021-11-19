@@ -2,6 +2,7 @@ import Breadcrumbs from './components/Breadcrumbs';
 import Component1 from './components/Component1';
 import Popover from './components/popover/Popover';
 import Accordion from './components/Accordion/Accordion';
+import Cart from './components/Cart/Cart';
 
 function App() {
   console.log('Render0');
@@ -29,16 +30,16 @@ function App() {
     { title: 'Acc 4', text: 'Acc 4 text' },
   ];
   return (
-    <>
+    <div>
       <h1>App</h1>
-      <Component1 />
       <Breadcrumbs items={crumbs} />
       <Accordion items={accItems} />
       <Popover message="Popover text" btnText="Click me" position="top" />
       <Popover message="Popover text" btnText="Click me" position="bottom" />
       <Popover message="Popover text" btnText="Click me" position="left" />
       <Popover message="Popover text" btnText="Click me" position="right" />
-    </>
+      <Cart/>
+      </div>
   );
 }
 
